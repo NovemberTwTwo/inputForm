@@ -4,6 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="gridContainer">
+      <div class="registerFormContainer">
+        <header class="registerFormHeader">
+          <h2>Register</h2>
+        </header>
+        <hr />
+        <section class="registerFormSection">
+          <form>
+            <label for="userId">Id</label>
+            <input type="text" name="userId" id="userId" />
+            <p class="userIdWarning"></p>
+
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+            <p class="nameWarning"></p>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="emailInput" />
+            <p class="emailWarning"></p>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+            <p class="passwordWarning"></p>
+
+            <div class="buttonContainer">
+              <button type="submit">register</button>
+            </div>
+          </form>
+        </section>
+        <!-- <section class="cardFormSection">
+          <form>
+          </form>
+        </section> -->
+      </div>
+    </div>
+  </body>
 </html>

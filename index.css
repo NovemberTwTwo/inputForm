@@ -1,0 +1,205 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100%;
+}
+
+.registerFormContainer {
+  border: 1px black solid;
+  min-height: 500px;
+}
+
+section {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+/* some smalls.. */
+@media only screen and (min-width: 0px) {
+  .registerFormContainer {
+    grid-column: 1/11;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 17px;
+  }
+}
+
+/* Phone - portrait */
+@media only screen and (min-width: 320px) {
+  .registerFormContainer {
+    grid-column: 1/11;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 17px;
+  }
+}
+
+/* Phone - landscape + portrait */
+@media only screen and (min-width: 480px) {
+  .registerFormContainer {
+    grid-column: 2/10;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 17px;
+  }
+}
+
+/* Small tablet - portrait */
+@media only screen and (min-width: 600px) {
+  .registerFormContainer {
+    grid-column: 3/9;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Large Tablet - portrait */
+@media only screen and (min-width: 768px) {
+  .registerFormContainer {
+    grid-column: 3/9;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Phone + Smalltablet - landscape */
+@media only screen and (min-width: 800px) {
+  .registerFormContainer {
+    grid-column: 3/9;
+  }
+  form {
+    margin: 30px;
+  }
+  h2 {
+    margin-left: 30px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Large Tablet - landscape */
+@media only screen and (min-width: 1024px) {
+  .registerFormContainer {
+    grid-column: 4/8;
+  }
+  form {
+    margin: 50px;
+  }
+  h2 {
+    margin-left: 50px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  .registerFormContainer {
+    grid-column: 4/8;
+  }
+  form {
+    margin: 50px;
+  }
+  h2 {
+    margin-left: 50px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Wide Screen desktop */
+@media only screen and (min-width: 1440px) {
+  .registerFormContainer {
+    grid-column: 4/8;
+  }
+  form {
+    margin: 50px;
+  }
+  h2 {
+    margin-left: 50px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
