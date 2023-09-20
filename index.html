@@ -14,17 +14,23 @@
         </header>
         <hr />
         <section class="registerFormSection">
-          <form>
+          <form id="registerForm">
             <label for="userId">Id</label>
             <input type="text" name="userId" id="userId" />
             <p class="userIdWarning"></p>
 
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" />
-
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" />
-            <p class="nameWarning"></p>
+            <div class="inputColumn">
+              <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" />
+                <p class="firstNameWarning"></p>
+              </div>
+              <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" />
+                <p class="lastNameWarning"></p>
+              </div>
+            </div>
 
             <label for="email">Email</label>
             <input type="email" name="email" id="emailInput" />
@@ -45,5 +51,6 @@
         </section> -->
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
